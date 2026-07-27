@@ -1,0 +1,21 @@
+{
+    "name": "VRT NWS",
+    "publisher": "Quasi Kili",
+    "short_description": "VRT NWS News Reader",
+    "long_description": "Lees het laatste nieuws van VRT NWS. Haalt artikels op uit de voorpagina en rss feed en toont de volledige inhoud.",
+    "fullname": "com.quasikili.vrtnws",
+    "version": "0.1.0",
+    "category": "knowledge",
+    "activities": [
+        {
+            "entrypoint": "vrtnws.py",
+            "classname": "VrtNewsActivity",
+            "intent_filters": [
+                {
+                    "action": "main",
+                    "category": "launcher"
+                }
+            ]
+        }
+    ]
+}
